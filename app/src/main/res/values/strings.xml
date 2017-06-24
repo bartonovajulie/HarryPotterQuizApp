@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App name -->
+    <string name="app_name">Harry Potter Quiz App</string>
+    <!-- Header text -->
+    <string name="headerText">The Return\nto Hogwarts</string>
+    <!-- Questions -->
+    <string name="firstQuestion">1. Harry\'s mother first name:</string>
+    <string name="secondQuestion">2. Three Deathly Hallows:</string>
+    <string name="thirdQuestion">3. Who married Hermione?</string>
+    <string name="fourthQuestion">4. The 6th HP\'s book:</string>
+    <string name="fifthQuestion">5. Who killed Dumbledore?</string>
+    <!-- 1.Q -->
+    <string name="yourAnswer">Your Answer</string>
+    <!-- 2.Q -->
+    <string name="stone">a magic stone</string>
+    <string name="wand">a magic wand</string>
+    <string name="coat">an invisible coat</string>
+    <string name="hat">a sorting hat</string>
+    <!-- 3.Q -->
+    <string name="ron">Ron</string>
+    <string name="harry">Harry</string>
+    <string name="draco">Draco</string>
+    <!-- 4.Q -->
+    <string name="firstBook">the Philosopher\'s Stone</string>
+    <string name="fourthBook">the Goblet of Fire</string>
+    <string name="sixthBook">the Half-Blood Prince</string>
+    <!-- 5.Q -->
+    <string name="snape">Snape</string>
+    <string name="lucius">Lucius</string>
+    <!-- Button -->
+    <string name="magicButton">Magic Button</string>
+    <!-- Results -->
+    <string name="fullOfMagic">You are full of magic!</string>
+    <string name="willBeGood">You will be good with magic!</string>
+    <string name="muggle">You are Muggle!</string>
+    <!-- Taste Message -->
+    <string name="message">Score: <xliff:g id="result" example="5">%d</xliff:g>. <xliff:g id="level" example="You are Muggle!">%s</xliff:g></string>
+</resources>

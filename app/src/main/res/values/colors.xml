@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default App colors -->
+    <color name="colorPrimary">#1A237E</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#212121</color>
+    <!-- Answer's text color -->
+    <color name="colorAnswer">#000000</color>
+    <!-- Header's text color -->
+    <color name="headerTextColor">#FFFFFF</color>
+    <!-- Question's text color -->
+    <color name="questionTextColor">#01579B</color>
+    <!-- Button's color -->
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="buttonBackgroundColor">#212121</color>
+</resources>

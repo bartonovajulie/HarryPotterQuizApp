@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.harrypotterquizapp.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/headerHeight"
+            android:background="@drawable/hogwarts"
+            android:orientation="horizontal"
+            android:scaleType="centerCrop">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/defaultIndent"
+                android:text="@string/headerText"
+                android:textAllCaps="true"
+                android:textColor="@color/headerTextColor"
+                android:textSize="@dimen/headerTextSize" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:text="@string/firstQuestion"
+            android:textAllCaps="true"
+            android:textColor="@color/questionTextColor" />
+
+        <EditText
+            android:id="@+id/motherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:hint="@string/yourAnswer"
+            android:inputType="textCapWords"
+            android:textColor="@color/colorAnswer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:text="@string/secondQuestion"
+            android:textAllCaps="true"
+            android:textColor="@color/questionTextColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/stoneCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stone"
+                android:textColor="@color/colorAnswer" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/wandCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wand"
+                android:textColor="@color/colorAnswer" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/coatCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coat"
+                android:textColor="@color/colorAnswer" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/hatCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hat"
+                android:textColor="@color/colorAnswer" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:text="@string/thirdQuestion"
+            android:textAllCaps="true"
+            android:textColor="@color/questionTextColor" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ronRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ron"
+                android:textColor="@color/colorAnswer" />
+
+            <RadioButton
+                android:id="@+id/harryRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/harry"
+                android:textColor="@color/colorAnswer" />
+
+            <RadioButton
+                android:id="@+id/dracoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/draco"
+                android:textColor="@color/colorAnswer" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:text="@string/fourthQuestion"
+            android:textAllCaps="true"
+            android:textColor="@color/questionTextColor" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/firstBookRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/firstBook"
+                android:textColor="@color/colorAnswer" />
+
+            <RadioButton
+                android:id="@+id/fourthBookRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fourthBook"
+                android:textColor="@color/colorAnswer" />
+
+            <RadioButton
+                android:id="@+id/sixthBookRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sixthBook"
+                android:textColor="@color/colorAnswer" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:text="@string/fifthQuestion"
+            android:textAllCaps="true"
+            android:textColor="@color/questionTextColor" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/defaultIndent"
+            android:layout_marginRight="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/dracoKillerRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/draco"
+                android:textColor="@color/colorAnswer" />
+
+            <RadioButton
+                android:id="@+id/snapeKillerRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/snape"
+                android:textColor="@color/colorAnswer" />
+
+            <RadioButton
+                android:id="@+id/luciusKillerRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lucius"
+                android:textColor="@color/colorAnswer" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/defaultIndent"
+            android:layout_marginTop="@dimen/defaultIndent"
+            android:background="@color/buttonBackgroundColor"
+            android:onClick="magicButton"
+            android:paddingLeft="@dimen/defaultIndent"
+            android:paddingRight="@dimen/defaultIndent"
+            android:text="@string/magicButton"
+            android:textColor="@color/buttonTextColor" />
+
+    </LinearLayout>
+
+</ScrollView>
